@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WGU Capstone | Brian Salazar</title>
+    <link rel="icon" href="../../images/site_images/CloudIcon.png" type="image/icon type">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/website.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <nav class="navbar navbar-expand-xl mb-4 border-bottom navbar-dark bg-dark py-2 fixed-top">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#sitenavigation" aria-controls="sitenavigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collapse navbar-collapse d-xl-flex" id="sitenavigation">
+            <a class="navbar-brand col-lg-3 me-0 text-white fs-4 ps-5" href="../../index.html">Brian Salazar</a>
+            <ul class="navbar-nav col-lg-6 justify-content-lg-center">
+              <li class="nav-item">
+                <a class="nav-link active text-white fs-6 pe-2" aria-current="page" href="../../index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown pe-2">
+                <a class="nav-link dropdown-toggle text-white fs-6" href="#" data-bs-toggle="dropdown" aria-expanded="false">Professional Projects</a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item fs-6" href="../professional_projects/TeacherRefresh.html">Teacher Device Refresh Project 22-23</a></li>   
+                  <li><a class="dropdown-item fs-6" href="../professional_projects/NewHugHS.html">New Hug High School Technology Deployment Summer '22</a></li>
+                  <li><a class="dropdown-item fs-6" href="../professional_projects/1to1DSMS.html">1:1 Laptop Program - Desert Skies Middle School (New School)</a></li>
+                  <li><a class="dropdown-item fs-6" href="../professional_projects/1to1TranerMS.html">1:1 Laptop Program - Traner Middle School (Pilot School)</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown pe-2">
+                <a class="nav-link dropdown-toggle text-white fs-6" href="#" data-bs-toggle="dropdown" aria-expanded="false">Personal Projects</a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item fs-6" href="./CloudResumeChallenge.html">Cloud Resume Challenge</a></li> 
+                  <li><a class="dropdown-item fs-6" href="./PortfoliositeV2.html">Portfolio Website 2.0 (CRC)</a></li>   
+                  <li><a class="dropdown-item fs-6" href="./PortfoliositeV1.html">Portfolio Website 1.0 (WordPress)</a></li>
+                  <li><a class="dropdown-item fs-6" href="./GitHubProjects.html">GitHub Projects & Repos</a></li>
+                  <li><a class="dropdown-item fs-6" href="./100DaysofCode.html">100 Days of Code Portfolio Projects</a></li>
+                  <li><a class="dropdown-item fs-6" href="./WGUCapstone.html">WGU Capstone Project</a></li>
+                  <li><a class="dropdown-item fs-6" href="./WindowsServerLabs.html">Windows Server 2019 Labs</a></li>
+                  <li><a class="dropdown-item fs-6" href="./PCBuilding.html">PC Building</a></li>
+                </ul>
+              </li>
+              <li class="nav-item pe-2">
+                <a class="nav-link text-white fs-6" href="../about.html">About</a>
+              </li>
+              <li class="nav-item pe-2">
+                <a class="nav-link text-white fs-6" href="../resume.html">Resume</a>
+              </li>
+              <li class="nav-item pe-2">
+                <a class="nav-link text-white fs-6" href="../certifications.html">Certifications</a>
+              </li>
+              <li class="nav-item pe-2">
+                <a class="nav-link text-white fs-6" href="../connect.html">Connect</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="wgu-capstone-bg-img">
+      <h1>WGU Capstone</h1>
+    </div>
+    <div class="container page-content">
+      <h2>Hybrid Cloud Identity and MDM Implementation Project</h2>
+      <h3>Capital City School District’s Hybrid Cloud Needs</h3>
+      <p>For my WGU capstone project, I created a hybrid cloud identities management solution and implemented a solution for managing devices through Microsoft Intune in Microsoft Azure. For the project, Capital City School District, a fictitious school district that needed a solution for allowing better mobility of users and management of devices off-premises had its resources synced with Microsoft Azure to implement a hybrid cloud environment.</p>
+      <p>The project had one overarching goal, user mobility, and by the end of the project, this goal was completed successfully along with all the other goals.</p>
+      <p>Prior to the completion of the project, all resources existed locally on the district’s internal network. To successfully complete the project, and allow for a better user experience, the following tasks needed to be completed:</p>
+      <ul>
+        <li>On-premises identities needed to be synced with the Azure Active Directory (Now Microsoft Entra ID😀) environment.</li>
+        <li>Student laptops needed to be managed from a centralized location in the cloud.</li>
+        <li>Applications needed to be made available to users and installed on user devices regardless of their location.</li>
+        <li>Students needed to be able to sign into applications and devices even when off the district’s network.</li>
+      </ul>
+      <hr>
+      <h3>Syncing On-Premises Identities into Microsoft Azure Active Directory</h3>
+      <div class="row">
+        <div class="col-6">
+          <figure>
+            <img class="img-border" src="../../images/proj_images/Capstone/CapPage-OnPremAD.png" alt="On-premises AD"/>
+            <figcaption>Screenshot of the on-premises Active Directory implementation.</figcaption>
+          </figure>
+        </div>
+        <div class="col-6">
+          <p>The first part of undertaking this project was to set up a local Active Directory environment. User accounts were created and placed in organizational units to make it appear as if this was a live environment.</p>
+          <p>The next step in the setup was to create an Azure Active Directory (AD) tenant that the on-premises users would be synced to.</p>
+          <p>After the tenant and local AD environment were configured, a tool called Azure AD Connect was used to sync the local user identities into the Azure AD environment. In Azure Active Directory, on-premises users were successfully synced into the cloud as depicted by the screenshot below.</p>
+          <p>A synced user’s identity was then used to sign into devices and Office 365’s website to verify that identities were synced properly.</p>
+        </div>
+      </div>
+      <figure>
+        <img class="img-border"  src="../../images/proj_images/Capstone/CapPage-AzureADAllUsers.png" alt="Azure AD" width=100%/>
+        <figcaption>Screenshot of the Azure Active Directory tenant with synced on-premises identities.</figcaption>
+      </figure>
+      <hr>
+      <h3>Laptop Onboarding into Mobile Device Management (MDM) Solution</h3>
+      <p>The next step in the completion of this project was to onboard devices into the cloud environment. To accomplish this and accomplish the goals of the project, a trial of Microsoft’s Enterprise Mobility + Security (EMS) solution was obtained. Using EMS, Azure AD Premium licenses were obtained but most importantly, the ability to use Microsoft’s Intune service was also made available.</p>
+      <p>With Microsoft Intune obtained, a group of test devices was then enrolled in the service as depicted below. Devices were enrolled in two separate groups (HVMS and CCHS). These groups were then used to assign applications and settings. </p>
+      <p>Once enrolled in Intune user accounts that were synced from the on-premises Active Directory environment were used to sign in to all the devices to ensure that everything was functioning as expected.</p>
+      <figure>
+        <img class="img-border"  src="../../images/proj_images/Capstone/CapPage-AllDevicesMEM.png" alt="Devices in Intune" width=100%/>
+        <figcaption>Screenshot of all devices that have been enrolled into Microsoft's Endpoint Manager service. The screenshot depicts enrolled devices that are being managed using Microsoft Intune.</figcaption>
+      </figure>
+      <hr>
+      <h3>Application Management and Pushes</h3>
+      <div class="row">
+        <div class="col-6">
+          <p>As with device management, Microsoft Intune was used to centrally manage applications that were made available to the group of devices that were enrolled. Applications were made available via software pushes and through a company portal, allowing for users to install those applications themselves.</p>
+          <p>The applications that were pushed to the devices were verified to have been installed successfully. Users were able to open the applications without any issues. Additionally, the installation progress was monitored from a centralized console in the cloud.</p>
+        </div>
+        <div class="col-6">
+          <figure>
+            <img class="img-border"  src="../../images/proj_images/Capstone/CapPage-StartMenu.png" alt="Devices start menu" width=100%/>
+            <figcaption>The picture above demonstrates that Office 365 applications were installed successfully on a device</figcaption>
+          </figure>
+        </div>
+      </div>
+      <figure>
+        <img class="img-border"  src="../../images/proj_images/Capstone/CapPage-O365InstallPage.png" alt="App install overview" width=100%/>
+        <figcaption>Screenshot of the overview page in Microsoft Intune monitoring the installation off Microsoft 365 apps on devices that were enrolled into Intune.</figcaption>
+      </figure>
+      <h2>Screenshots of Project’s Tasks, Deliverables and Outcomes</h2>
+      <p>Below is a full list of screenshots that were taken throughout the completion of the project. These screenshots include completion of tasks, as well as objectives and deliverables that were met.</p>
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9" aria-label="Slide 10"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="10" aria-label="Slide 11"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="11" aria-label="Slide 12"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="12" aria-label="Slide 13"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="13" aria-label="Slide 14"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="14" aria-label="Slide 15"></button>
+        </div>
+        <div class="carousel-inner">
+          <!-- Img1 -->
+          <div class="carousel-item active">
+            <img src="../../images/proj_images/Capstone/CapA-ADTenantOverview.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <p><span class="text-opaq-bg">CCSD's Azure Active Directory Overview Page</span></p>
+            </div>
+          </div>
+          <!-- Img2 -->
+          <div class="carousel-item">
+            <img src="../../images/proj_images/Capstone/CapB-CloudIdentitySignedintoO365.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <p><span class="text-opaq-bg">Synced On-Premises user signed into the Office 365 portal</span></p>
+            </div>
+          </div>
+          <!-- Img3 -->
+          <div class="carousel-item">
+            <img src="../../images/proj_images/Capstone/CapC-OnPremiseAD.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <p><span class="text-opaq-bg">CCSD's On-Premises Active Directory environment</span></p>
+            </div>
+          </div>
+          <!-- Img4 -->
+          <div class="carousel-item">
+            <img src="../../images/proj_images/Capstone/CapD-ADConnectConfigCompletePage.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <p><span class="text-opaq-bg">Azure AD Connect Configuration Screen</span></p>
+            </div>
+          </div>
+          <!-- Img5 -->
+          <div class="carousel-item">
+            <img src="../../images/proj_images/Capstone/CapE-AzureADAfterSync.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <p><span class="text-opaq-bg">Azure Active Directory with synced on-premises users</span></p>
+            </div>
+          </div>
+          <!-- Img6 -->
+          <div class="carousel-item">
+            <img src="../../images/proj_images/Capstone/CapF-AzureUserProofofSync.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <p><span class="text-opaq-bg">Individual user's settings verifying source of identity</span></p>
+            </div>
+          </div>
+          <!-- Img7 -->
+          <div class="carousel-item">
+            <img src="../../images/proj_images/Capstone/CapG-ADConnectPWWritebackEnabled.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <p><span class="text-opaq-bg">Azure AD Connect settings - Configuring Password writeback</span></p>
+            </div>
+          </div>
+          <!-- Img8 -->
+          <div class="carousel-item">
+            <img src="../../images/proj_images/Capstone/CapH-IntuneEnrolementOverview.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <p><span class="text-opaq-bg">Microsoft Intune Devices - Overview page</span></p>
+            </div>
+          </div>
+          <!-- Img9 -->
+          <div class="carousel-item">
+            <img src="../../images/proj_images/Capstone/CapI-AllDevicesMEM.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <p><span class="text-opaq-bg">Microsoft Intune Devices - All Devices page</span></p>
+            </div>
+          </div>
+          <!-- Img10 -->
+          <div class="carousel-item">
+            <img src="../../images/proj_images/Capstone/CapJ-WifiNetworkConfigDashboard.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <p><span class="text-opaq-bg">Microsoft Intune WiFi Device Configuration Profile deployment</span></p>
+            </div>
+          </div>
+          <!-- Img11 -->
+          <div class="carousel-item">
+            <img src="../../images/proj_images/Capstone/CapK-SecurebootComplianceDashboard.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <p><span class="text-opaq-bg">Microsoft Intune Secure Boot compliance policy overview</span></p>
+            </div>
+          </div>
+          <!-- Img12 -->
+          <div class="carousel-item">
+            <img src="../../images/proj_images/Capstone/CapL-Office365InstallProgress.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <p><span class="text-opaq-bg">Microsoft Intune deployed application overview</span></p>
+            </div>
+          </div>
+          <!-- Img13 -->
+          <div class="carousel-item">
+            <img src="../../images/proj_images/Capstone/CapM-ManagedAppsOnDevice.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <p><span class="text-opaq-bg">Managed Apps page on an individual device showing installation progress</span></p>
+            </div>
+          </div>
+          <!-- Img14 -->
+          <div class="carousel-item">
+            <img src="../../images/proj_images/Capstone/CapO-DeviceSoftwareInstalNotification.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <p><span class="text-opaq-bg">Device notifications on a device's desktop</span></p>
+            </div>
+          </div>
+          <!-- Img15 -->
+          <div class="carousel-item">
+            <img src="../../images/proj_images/Capstone/CapP-StartMenuSoftwareInstallVerified_BG.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <p><span class="text-opaq-bg">Device Start Menu verifying that applications have installed</span></p>
+            </div>
+          </div>
+        </div>
+      <div style="background-color: black;">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+      </div>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>   
+    </div>
+
+    <!-- Footer -->
+    <div class="bg-dark">
+        <footer class="container d-flex flex-wrap justify-content-between align-items-center py-5 mt-5">
+            <div class="col-md-4 d-flex align-items-center">
+            <span class="mb-3 ms-5 mb-md-0 text-white">©<span id="currentyear">YEAR</span> Brian Salazar</span>
+            </div>
+            <ul class="nav col-md-4 me-5 justify-content-end list-unstyled d-flex">
+                <!-- Portfolio Site -->
+                <li class="ms-3"><a class="text-white" href="https://www.briansalazar.net"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe2" viewBox="0 0 16 16">
+                    <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855q-.215.403-.395.872c.705.157 1.472.257 2.282.287zM4.249 3.539q.214-.577.481-1.078a7 7 0 0 1 .597-.933A7 7 0 0 0 3.051 3.05q.544.277 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9 9 0 0 1-1.565-.667A6.96 6.96 0 0 0 1.018 7.5zm1.4-2.741a12.3 12.3 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332M8.5 5.09V7.5h2.99a12.3 12.3 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.6 13.6 0 0 1 7.5 10.91V8.5zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741zm-3.282 3.696q.18.469.395.872c.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a7 7 0 0 1-.598-.933 9 9 0 0 1-.481-1.079 8.4 8.4 0 0 0-1.198.49 7 7 0 0 0 2.276 1.522zm-1.383-2.964A13.4 13.4 0 0 1 3.508 8.5h-2.49a6.96 6.96 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667m6.728 2.964a7 7 0 0 0 2.275-1.521 8.4 8.4 0 0 0-1.197-.49 9 9 0 0 1-.481 1.078 7 7 0 0 1-.597.933M8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855q.216-.403.395-.872A12.6 12.6 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.96 6.96 0 0 0 14.982 8.5h-2.49a13.4 13.4 0 0 1-.437 3.008M14.982 7.5a6.96 6.96 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008zM11.27 2.461q.266.502.482 1.078a8.4 8.4 0 0 0 1.196-.49 7 7 0 0 0-2.275-1.52c.218.283.418.597.597.932m-.488 1.343a8 8 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z"></path>
+                </svg></use></svg></a></li>
+                <!-- GitHub -->
+                <li class="ms-3"><a class="text-white" href="https://github.com/briansalazar-tech"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8"></path>        </svg></use></svg></a></li>
+                <!-- LinkedIn -->
+                <li class="ms-3"><a class="text-white" href="https://www.linkedin.com/in/briansalazar5/"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401m-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4"></path>
+                </svg></use></svg></a></li>
+                <!-- Beacon Link to Bio -->
+                <li class="ms-3"><a class="text-white" href="https://www.briansalazar.me"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-diagram-3-fill" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M6 3.5A1.5 1.5 0 0 1 7.5 2h1A1.5 1.5 0 0 1 10 3.5v1A1.5 1.5 0 0 1 8.5 6v1H14a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0v-1A.5.5 0 0 1 2 7h5.5V6A1.5 1.5 0 0 1 6 4.5zm-6 8A1.5 1.5 0 0 1 1.5 10h1A1.5 1.5 0 0 1 4 11.5v1A1.5 1.5 0 0 1 2.5 14h-1A1.5 1.5 0 0 1 0 12.5zm6 0A1.5 1.5 0 0 1 7.5 10h1a1.5 1.5 0 0 1 1.5 1.5v1A1.5 1.5 0 0 1 8.5 14h-1A1.5 1.5 0 0 1 6 12.5zm6 0a1.5 1.5 0 0 1 1.5-1.5h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5z"/>
+                </svg></use></svg></a></li>
+            </ul>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="../../js/index.js" charset="UTF-8"></script>
+</body>
+</html>

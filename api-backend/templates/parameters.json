@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "sites_crc_api_function_name": {
+            "value": null
+        },
+        "databaseAccounts_crcapidb_name": {
+            "value": null
+        },
+        "components_crc_api_function_name": {
+            "value": null
+        },
+        "serverfarms_ASP_crcapibackend_b39e_name": {
+            "value": null
+        },
+        "storageAccounts_crcapibackend9eff_name": {
+            "value": null
+        },
+        "actionGroups_Application_Insights_Smart_Detection_name": {
+            "value": null
+        },
+        "workspaces_DefaultWorkspace_7122171f_a774_4494_b94d_618a1f920f18_WUS2_externalid": {
+            "value": null
+        }
+    }
+}

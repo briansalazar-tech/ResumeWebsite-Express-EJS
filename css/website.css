@@ -1,0 +1,165 @@
+body {
+    background-color:#fdf7f0;
+}
+
+h1 {
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6rem;
+}
+
+h2 {
+    margin-top: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+}
+
+h3 {
+    margin-top: 2rem;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
+
+.thinner-hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.thicker-hr {
+    border: 0;
+    height: 1px;
+    background: black;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.cert-about-connect-bg-img{
+    background-image: url("../images/site_images/Header-PensandNotes.jpg");
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    justify-content: center;
+    padding-top: 14em;
+    padding-bottom: 14rem;
+    color: white;
+    
+}
+
+.personal-projects-bg-img{
+    background-image: url("../images/site_images/Header-Motherboard.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    justify-content: center;
+    padding-top: 14em;
+    padding-bottom: 14rem;
+    color: white;
+    
+}
+
+.wgu-capstone-bg-img{
+    background-image: url("../images/site_images/Header-ThoughtBubble.jpg");
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    justify-content: center;
+    padding-top: 14em;
+    padding-bottom: 14rem;
+    color: white;
+    
+}
+
+.professional-projects-bg-img{
+    background-image: url("../images/site_images/Header-Servers.jpg");
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    justify-content: center;
+    padding-top: 14em;
+    padding-bottom: 14rem;
+    color: white;
+    
+}
+
+.text-opaq-bg {
+    background-color: #42413C;
+    padding: 5px;
+
+}
+
+.page-content {
+    background-color: #fdf7f0;
+}
+
+.bolder-underline {
+    font-weight: bolder; 
+    text-decoration: underline;
+}
+
+.project-li {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 25px;
+    list-style-type: none;
+}
+
+.project-link {
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.centered-figures {
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.img-border {
+    border: 1px solid black;
+}
+
+#about-list {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    list-style-type: none;
+    border-left: 10px solid black;
+}
+
+#about-li {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    font-size: 30px;
+}
+
+#hero-bg {
+    background-color: white;
+    margin-top: 9rem;
+    margin-bottom: 7rem;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    box-shadow: 5px 5px 5px grey;
+}
+
+#badges {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}

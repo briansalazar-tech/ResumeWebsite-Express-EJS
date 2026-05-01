@@ -1,0 +1,3 @@
+This folder contains the ARM template file that was generated from the Backend Azure Function App Resource Group. In addition to the json file, I created a bicep template file from the downloaded ARM template.
+
+I wasn't sure how to explore the IaC portion of this project for the website and function app I created as I do not envision the Azure function's code changing much. Any changes that do come to this website will come on the frontend with content being added and changed. I will plan on exploring IaC concepts further in a seperate project/repo.
