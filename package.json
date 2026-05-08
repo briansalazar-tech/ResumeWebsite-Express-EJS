@@ -1,0 +1,24 @@
+{
+  "name": "resumewebsite-express-ejs",
+  "version": "1.0.0",
+  "description": "Express and EJS Portfolio website",
+  "homepage": "https://github.com/briansalazar-tech/ResumeWebsite-Express-EJS#readme",
+  "bugs": {
+    "url": "https://github.com/briansalazar-tech/ResumeWebsite-Express-EJS/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briansalazar-tech/ResumeWebsite-Express-EJS.git"
+  },
+  "license": "ISC",
+  "author": "Brian Salazar",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ejs": "^5.0.2",
+    "express": "^5.2.1"
+  }
+}
