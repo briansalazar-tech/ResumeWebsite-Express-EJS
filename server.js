@@ -38,6 +38,46 @@ app.get("/projects", (req, res) => {
 // Professional Project - NAME
 
 // Personal Project - NAME
+// Personal Project - 100 Days of Code
+app.get("/projects/100DaysofCode", (req, res) => {
+    res.render("PersProj_100DaysofCode.ejs");
+});
+
+// Personal Project - Cloud Resume Challenge
+app.get("/projects/CloudResumeChallenge", (req, res) => {
+    res.render("PersProj_CloudResumeChallenge.ejs");
+});
+
+// Personal Project - GitHub Projects
+app.get("/projects/GitHubProjects", (req, res) => {
+    res.render("PersProj_GitHubProjects.ejs");
+});
+
+// Personal Project - PC Building
+app.get("/projects/PCBuilding", (req, res) => {
+    res.render("PersProj_PCBuilding.ejs");
+});
+
+// Personal Project - Portfolio Website 1.0
+app.get("/projects/PortfolioWebsiteV1", (req, res) => {
+    res.render("PersProj_PortfolioWebsiteV1.ejs");
+});
+
+// Personal Project - Portfolio Website 2.0
+app.get("/projects/PortfolioWebsiteV2", (req, res) => {
+    res.render("PersProj_PortfolioWebsiteV2.ejs");
+});
+
+// Personal Project - Windows Server Home Labs
+app.get("/projects/WindowsServerLabs", (req, res) => {
+    res.render("PersProj_WindowsServerLabs.ejs");
+});
+
+// Personal Project - Windows Server Home Labs
+app.get("/projects/WGUCapstone", (req, res) => {
+    res.render("PersProj_WGUCapstone.ejs");
+});
+
 
 // Under connstruction
 app.get("/underconstruction", (req, res) => {

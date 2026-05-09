@@ -1,0 +1,101 @@
+<%- include("partials/header.ejs") %>
+<!-- Content -->
+<div class="personal-projects-bg-img">
+  <h1>Windows Server 2019 Labs</h1>
+</div>
+<div class="container page-content">
+  <h2>Experience and Outcomes</h2>
+  <p>
+    Following labs made available by Syed Faridi’s Windows Server 2019
+    Administration: Lab Book, I set up a functional client-server domain
+    environment using Hyper-V.
+  </p>
+  <p>
+    In the past I have completed several labs that required the configuration of
+    virtual machines for classes and other small projects, however, I have never
+    spun up a fully functional domain environment.
+  </p>
+  <p>
+    As part of the lab setup, I created a total of 28 virtual machines running
+    either Windows Server 2019 or Windows 10. To create all those virtual
+    machines, I used evaluation editions of Windows Server and Windows 10
+    installed on two template virtual machines. One template VM running Windows
+    Server 2019 and the other running Windows 10.
+  </p>
+  <p>
+    The virtualized environment covered various aspects of Windows Server
+    configuration, and the following are some of the outcomes that were achieved
+    upon completion of the virtualized environment.
+  </p>
+  <ul>
+    <li>
+      Active Directory Domain Services was setup and configured. As part of the
+      configuration, several Organization Units, Users and Security Groups were
+      created.
+    </li>
+    <li>DNS zones and records were also configured.</li>
+    <li>DHCP scopes, exclusions and assignments were also configured.</li>
+    <li>
+      Computer objects were joined to the domain and configured as client
+      machines as well as servers within the domain environment running various
+      roles.
+    </li>
+    <li>
+      Servers were added to the Windows Admin Center and managed using the
+      online console.
+    </li>
+  </ul>
+  <p>
+    As part of the lab setup, machines were created from the templates, joined
+    to the domain, and configured to run the specified services. If the results
+    of the lab were not successfully achieved, troubleshooting was performed to
+    ensure that all labs were completed successfully. The most common issues
+    that were encountered were network related. Mostly due to improperly
+    configured IP information.
+  </p>
+  <p>
+    In the end, I was able to successfully set up the domain environment and
+    complete all objectives in the bullet points above and more!
+  </p>
+  <h2>Screenshots</h2>
+  <p>
+    Below are some screenshots of the work accomplished in the lab environment.
+  </p>
+  <div class="centered-figures">
+    <figure>
+      <img
+        src="../../images/proj_images/WinServerLabs/ServerLab-ListofVMs.png"
+        alt="List of VMs"
+      />
+      <figcaption>List of Virtual Machines in Hypber-V Manager</figcaption>
+    </figure>
+    <br />
+    <figure>
+      <img
+        src="../../images/proj_images/WinServerLabs/ServerLab-DomainControllers.png"
+        alt="Domain Controllers"
+      />
+      <figcaption>
+        Domain Controllers inside of Active Directory Users and Computers
+      </figcaption>
+    </figure>
+    <br />
+    <figure>
+      <img
+        src="../../images/proj_images/WinServerLabs/ServerLab-DCinWinAdminCenter.png"
+        alt="Windows Admin Center"
+      />
+      <figcaption>Domain Controller in Windows Admin Center</figcaption>
+    </figure>
+    <br />
+    <figure>
+      <img
+        src="../../images/proj_images/WinServerLabs/ServerLab-DNSManager.png"
+        alt="DNS Manager"
+      />
+      <figcaption>Created DNS Records Inside of DNS Manager</figcaption>
+    </figure>
+  </div>
+</div>
+<!-- Footer -->
+<%- include("partials/footer.ejs") %>
