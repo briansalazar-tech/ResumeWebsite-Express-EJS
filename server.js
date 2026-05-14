@@ -35,9 +35,25 @@ app.get("/projects", (req, res) => {
     res.render("projects.ejs");
 });
 
-// Professional Project - NAME
+// Professional Project - 1:1 DSMS
+app.get("/projects/1to1DSMS", (req, res) => {
+    res.render("ProProj_1to1DSMS.ejs");
+});
 
-// Personal Project - NAME
+// Professional Project - 1:1 Traner
+app.get("/projects/1to1TranerMS", (req, res) => {
+    res.render("ProProj_1to1TranerMS.ejs");
+});
+
+// Professional Project - New Hug HS
+app.get("/projects/NewHugHS", (req, res) => {
+    res.render("ProProj_NewHugHS.ejs");
+});
+
+// Professional Project - New Hug HS
+app.get("/projects/TeacherRefresh", (req, res) => {
+    res.render("ProProj_TeacherRefresh.ejs");
+});
 // Personal Project - 100 Days of Code
 app.get("/projects/100DaysofCode", (req, res) => {
     res.render("PersProj_100DaysofCode.ejs");
