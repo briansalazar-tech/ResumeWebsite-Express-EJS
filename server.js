@@ -89,7 +89,7 @@ app.get("/WindowsServerLabs", (req, res) => {
     res.render("PersProj_WindowsServerLabs.ejs");
 });
 
-// Personal Project - Windows Server Home Labs
+// Personal Project - WGU Capstone
 app.get("/WGUCapstone", (req, res) => {
     res.render("PersProj_WGUCapstone.ejs");
 });
