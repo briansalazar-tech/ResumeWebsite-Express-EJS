@@ -84,6 +84,11 @@ app.get("/PortfolioWebsiteV2", (req, res) => {
     res.render("PersProj_PortfolioWebsiteV2.ejs");
 });
 
+// Personal Project - Portfolio Website 3.0
+app.get("/PortfolioWebsiteV3", (req, res) => {
+    res.render("PersProj_PortfolioWebsiteV3.ejs");
+});
+
 // Personal Project - Windows Server Home Labs
 app.get("/WindowsServerLabs", (req, res) => {
     res.render("PersProj_WindowsServerLabs.ejs");
